@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class TelaSecundaria extends StatefulWidget {
-  String valor;
+  final String valor;
 
   TelaSecundaria(this.valor);
 
