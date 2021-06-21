@@ -31,7 +31,7 @@ class _TelaPrincipalState extends State<TelaPrincipal> {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (cotext) => TelaSecundaria(),
+                    builder: (cotext) => TelaSecundaria("Raphael"),
                   ),
                 );
               },
